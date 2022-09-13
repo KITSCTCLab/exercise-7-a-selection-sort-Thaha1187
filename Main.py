@@ -1,6 +1,6 @@
 from typing import List
 
-def selectionSort(array, size) -> List[int]:
+def selectionSort(A, size) -> List[int]:
   # Write your code here
   for i in range(0,size-1):
     min = i
